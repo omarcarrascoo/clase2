@@ -1,12 +1,22 @@
 *{
     margin: 0;
 }
+
+/* HEADER */
 .mainHeader{
     width: 100%;
     height: 100px;
-    background-color: #7893cc;
+    background-color: #D9D9D9;
     display: flex;
-    justify-content: space-between ;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 .logoContainer{
@@ -14,7 +24,7 @@
 }
 .ulNav{
     display: flex;
-    font-size: 24px;
+    font-size: 20px;
 }
 .ulNav li{
   list-style: none;
@@ -23,4 +33,126 @@
 .ulNav li a{
     text-decoration: none;
     color: black;
+}
+
+/* HERO */
+.hero{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-bottom: 40px;  
+}
+.heroTexts{
+    font-family: 'Open Sans', sans-serif;
+    color: #f2f2f2;
+}
+.heroTexts h1{
+    font-size: 48px;
+    text-align: center;
+}
+.heroTexts p{
+    font-size: 24px;
+    text-align: center;
+}
+.heroBtns{
+    margin-top: 40px;
+}
+.btnPrimary{
+    background-color: #2BCA41;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #404040;
+    border: none;
+    text-decoration: none;
+}
+.btnSecondary{
+    background: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #2BCA41;
+    color: #2BCA41;
+    text-decoration: none;
+}
+/* SECTION */
+.section{
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background: #D9D9D9;
+    padding: 30px 0;
+    font-family: 'Open Sans', sans-serif;    
+}
+.containerSection{
+    width: 85%;
+    margin: 0 auto;
+}
+.section h2{
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.section p{
+    line-height: 30px;
+    font-weight: 200;
+}
+
+/* FORM */
+
+.formSection{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.formSection_Form h3{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.formSection_Img{
+    width: 50%;
+}
+.formSection_Img img{
+    width: 100%;
+}
+.formSection_Form{
+    width: 50%;
+}
+.mainForm input{
+    width: 85%;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #8e8e8e;
+}
+.mainForm textarea{
+    width: 85%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #8e8e8e;
+    margin-bottom: 10px;
+}
+/* FOOTER */
+.mainFooter{
+    width: 100%;
+    height: 60px;
+    background: #626262;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+.logoFooter{
+    font-size: 28px;
+}
+.mainFooter a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 14px;
 }

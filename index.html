@@ -3,38 +3,46 @@
 
 <head>
     <title>Class 2</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--STYLE-->
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="mainHeader">
-        <div class="logoContainer">
-            <p>LOGO</p>
-        </div>
-        <div class="navContainer">
-            <nav>
-                <ul class="ulNav">
-                    <li><a href="#">Link1</a></li>
-                    <li><a href="#">Link3</a></li>
-                    <li><a href="#">Link3</a></li>
-                    <li><a href="#">Link4</a></li>
-                </ul>
-            </nav>
+        <div class="container">
+            <div class="logoContainer">
+                <p>LOGO</p>
+            </div>
+            <div class="navContainer">
+                <nav>
+                    <ul class="ulNav">
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link3</a></li>
+                        <li><a href="#">Link3</a></li>
+                        <li><a href="#">Link4</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main>
         <section class="hero">
-            <div>
+            <div class="heroTexts">
                 <h1>BIG TITLE THAT CATCH CLIENTS</h1>
                 <p>A little description of the service you provide, show the bennefit</p>
             </div>
-            <div>
-                <a href="#">Cotact us</a>
-                <a href="#">Information</a>
+            <div class="heroBtns">
+                <a class="btnPrimary" href="#">Cotact us</a>
+                <a class="btnSecondary" href="#">Information</a>
             </div>
         </section>
-        <section>
-            <h2>First Subtitle</h2>
+        <section class="section">
+            <div class="containerSection">
+                <h2>First Subtitle</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum enim porro, mollitia velit esse quis,
                 distinctio officia, voluptatum expedita iusto dignissimos. A quod repudiandae voluptate placeat velit
                 saepe deserunt ratione natus reprehenderit nesciunt provident numquam vero, rerum repellendus laboriosam
@@ -43,32 +51,40 @@
                 quidem? Voluptate accusantium omnis inventore cum nisi accusamus quia facilis voluptatum nam? Quidem qui
                 temporibus vel quasi quos iusto dolorem sed saepe, dolore doloremque nam consequatur accusantium dolores
                 quisquam odit! Sint, veniam?</p>
+            </div>
         </section>
-        <section>
-            <h2>Second Section</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt alias perspiciatis porro quaerat
+        <section class="section">
+            <div class="containerSection">
+                <h2>Second Section</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sunt alias perspiciatis porro quaerat
                 ullam at explicabo! Molestias obcaecati, quam veniam ad culpa commodi iste omnis quisquam vero quaerat
                 voluptate quis corrupti enim error eos, odit assumenda fugiat sed. Modi enim cum recusandae in
                 exercitationem cumque facere sunt sapiente sit repellendus sint dolore, iusto ea, voluptates non ipsum
                 deserunt quas.</p>
-        </section>
-        <section>
-            <div>
-                <img src="./assets/img/giphy.gif" alt="Basket ball player">
             </div>
-            <div>
+        </section>
+        <section class="formSection">
+            <div class="formSection_Img">
+                <img style="width: 400px" src="./assets/img/giphy.gif" alt="Basket ball player">
+            </div>
+            <div class="formSection_Form">
                 <h3>STAY IN CONTACT</h3>
-                <form>
+                <form class="mainForm">
                     <input type="text" placeholder="Name">
+                    <br>
                     <input type="email" placeholder="Email">
+                    <br>
                     <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <button class="btnPrimary">Send</button>
                 </form>
             </div>
         </section>
     </main>
-    <footer>
-        <p>LOGO</p>
-        <p><a href="#">Privacy and Policy</a></p>
+    <footer class="mainFooter">
+        <div class="container">
+            <p class="logoFooter">LOGO</p>
+            <p><a href="#">Privacy and Policy</a></p>
+        </div>
     </footer>
 </body>
 
